@@ -1,3 +1,11 @@
 .dogs {
   background: red;
+
+  li {
+    font-weight: bold;
+
+    &:hover {
+      background: yellow;
+    }
+  }
 }
